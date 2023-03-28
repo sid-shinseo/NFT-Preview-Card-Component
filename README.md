@@ -82,5 +82,4 @@ I would like to add features that would use javascript like counting down the da
 ================================================================================================
 
 ## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sid-shinseo)
+- Frontend Mentor - [@Sid-Shinseo](https://www.frontendmentor.io/profile/sid-shinseo)
