@@ -20,12 +20,10 @@ html {
 body {
     background-color: var(--main-bg);
     color: var(--white);
-    width: 100%;
-    height: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
 }
 
 a {
@@ -136,4 +134,3 @@ hr {
 h2 {
     color: var(--cyan);
 }
-
