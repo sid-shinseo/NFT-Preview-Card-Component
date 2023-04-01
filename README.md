@@ -76,10 +76,52 @@ here is an example, even if I didn't manage to get the result I wanted:
 ```
 ================================================================================================
 
+### change made
+ - 31 March 2023
+ I found how to make the same overlay as on the design, here is the method I used: 
+  ``` css
+  .image {
+    position: relative;
+    width: 335px;
+    height: 335px;
+    background-color: lightblue;
+    border-radius: 12px;
+    box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.image img {
+    border-radius: 10px;
+}
+.image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 255, 247, .4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transform: scale(0);
+    transition: scale .5s;
+}
+.overlay img {
+    width: 43px;
+    height: 43px;
+}
+.image:hover .overlay {
+    transform: scale(1);
+}
+  ```
+
+
+================================================================================================
+
 ### Continued development
 I would like to add features that would use javascript like counting down the days left after each day. But, as I haven't started learning JS yet, it will wait. 
 
 ================================================================================================
 
 ## Author
+
 - Frontend Mentor - [@Sid-Shinseo](https://www.frontendmentor.io/profile/sid-shinseo)
