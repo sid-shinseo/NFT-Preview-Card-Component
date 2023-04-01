@@ -47,6 +47,14 @@ In the end, to center it I had to put it in "cover" because with the small size,
 
 I learned that you can do a lot more than I thought with the '::before, ::after' properties, 
 here is an example, even if I didn't manage to get the result I wanted:
+``` html
+<figure class="image">
+        <img src="images/image-equilibrium.jpg" alt="Equilibrium image">
+        <figcaption class="overlay">
+          <img src="images/icon-view.svg" alt="icon view">
+        </figcaption>
+      </figure>
+```
 ``` css
 .image {
     position: relative;
